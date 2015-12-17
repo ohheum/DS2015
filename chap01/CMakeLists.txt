@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.2)
+project(chap01)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(SOURCE_FILES  test2.cpp)
+#set(SOURCE_FILES ex05_3.cpp)
+#set(SOURCE_FILES phone_directory05_2.cpp)
+add_executable(chap01 ${SOURCE_FILES})
+#set(SOURCE_FILES phone_directory05_old.cpp)
+#add_executable(chap01 ${SOURCE_FILES} my_string_tools.h my_string_tools.cpp manage_directory.h manage_directory.cpp)
